@@ -1,16 +1,16 @@
-[![Build Status](https://travis-ci.org/jharding/grunt-sed.svg?branch=master)](https://travis-ci.org/jharding/grunt-sed)
-[![Dependency Status](https://david-dm.org/jharding/grunt-sed.svg)](https://david-dm.org/jharding/grunt-sed)
-[![devDependency Status](https://david-dm.org/jharding/grunt-sed/dev-status.svg)](https://david-dm.org/jharding/grunt-sed#info=devDependencies)
+[![Build Status](https://travis-ci.org/twbs/grunt-sed.svg?branch=twbs)](https://travis-ci.org/twbs/grunt-sed)
+[![Dependency Status](https://david-dm.org/twbs/grunt-sed.svg)](https://david-dm.org/twbs/grunt-sed)
+[![devDependency Status](https://david-dm.org/twbs/grunt-sed/dev-status.svg)](https://david-dm.org/twbs/grunt-sed#info=devDependencies)
 
-grunt-sed
-=========
+# grunt-sed
+
+*This is a fork of the original repo with the changes we needed since things were going pretty slow upstream.*
 
 Built on top of [replace][replace], grunt-sed is a Grunt plugin for performing search and replace on files.
 
 [replace]: https://github.com/harthur/replace
 
-Installation
-------------
+## Installation
 
 Install grunt-sed using npm:
 
@@ -24,8 +24,7 @@ Then add this line to your project's *Gruntfile.js*:
 grunt.loadNpmTasks('grunt-sed');
 ```
 
-Usage
------
+## Usage
 
 This plugin is a [multi task][types_of_tasks], meaning that Grunt will automatically iterate over all exec targets if a target is not specified.
 
@@ -57,23 +56,20 @@ grunt.initConfig({
 });
 ```
 
-Testing
--------
+## Testing
 
 ```bash
 $ cd grunt-sed
 $ npm test
 ```
 
-Issues
-------
+## Issues
 
 Found a bug? Create an issue on GitHub.
 
 https://github.com/jharding/grunt-sed/issues
 
-Versioning
-----------
+## Versioning
 
 For transparency and insight into the release cycle, releases will be numbered with the follow format:
 
@@ -87,8 +83,7 @@ And constructed with the following guidelines:
 
 For more information on semantic versioning, please visit http://semver.org/.
 
-License
--------
+## License
 
-Copyright (c) 2013 [Jake Harding](http://thejakeharding.com) <br/>
+Copyright (c) 2013 [Jake Harding](http://thejakeharding.com)  
 Licensed under the MIT License.
