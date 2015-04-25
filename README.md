@@ -10,20 +10,6 @@ Built on top of [replace][replace], grunt-sed is a Grunt plugin for performing s
 
 [replace]: https://github.com/harthur/replace
 
-## Installation
-
-Install grunt-sed using npm:
-
-```bash
-$ npm install grunt-sed
-```
-
-Then add this line to your project's *Gruntfile.js*:
-
-```js
-grunt.loadNpmTasks('grunt-sed');
-```
-
 ## Usage
 
 This plugin is a [multi task][types_of_tasks], meaning that Grunt will automatically iterate over all exec targets if a target is not specified.
@@ -55,33 +41,6 @@ grunt.initConfig({
   }
 });
 ```
-
-## Testing
-
-```bash
-$ cd grunt-sed
-$ npm test
-```
-
-## Issues
-
-Found a bug? Create an issue on GitHub.
-
-https://github.com/jharding/grunt-sed/issues
-
-## Versioning
-
-For transparency and insight into the release cycle, releases will be numbered with the follow format:
-
-`<major>.<minor>.<patch>`
-
-And constructed with the following guidelines:
-
-* Breaking backwards compatibility bumps the major
-* New additions without breaking backwards compatibility bumps the minor
-* Bug fixes and misc changes bump the patch
-
-For more information on semantic versioning, please visit http://semver.org/.
 
 ## License
 
