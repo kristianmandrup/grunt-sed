@@ -2,14 +2,11 @@
   "name": "grunt-sed",
   "description": "Grunt task for search and replace.",
   "version": "0.2.0",
-  "homepage": "https://github.com/jharding/grunt-sed",
+  "homepage": "https://github.com/twbs/grunt-sed",
   "author": "Jake Harding <jacob.s.harding@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jharding/grunt-sed.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jharding/grunt-sed/issues"
+    "url": "https://github.com/twbs/grunt-sed.git"
   },
   "licenses": [
     {
